@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> 
+	<title>Hello World</title>
+	<style type="text/css">
+	body {
+	  background: #c5ccd4;
+	  font-family: Helvetica, arial, sans-serif;
+	}
+	.congrats {
+	  font-size: 16pt;
+	  padding: 6px;
+	  text-align: center;
+	}
+	.step {
+	  background: white;
+	  border: 1px #ccc solid;
+	  border-radius: 14px;
+	  padding: 4px 10px;
+	  margin: 10px 0;
+	}
+	.instructions {
+	  font-size: 10pt;
+	}
+	.arrow {
+	  font-size: 15pt;
+	}
+	table {
+	  width: 100%;
+	}
+	</style>
+</head>
+
+<body>
+	<section>
+		<article>
+			<div class="congrats">Hello World</div>
+			<div class="step">
+			  <table><tr>
+			    <td class="instructions">Install root CA</td>
+			    <td width="24" class="arrow">&rarr;</td>
+			    <td width="57" class="imagelink">
+			      <a href="certs/rootCA.cer">
+			      	<img src="img/certificate.png" style="height:57px; width:auto;"/>
+			      </a>
+			    </td>
+			  </tr></table>
+			</div>
+			<div class="step">
+			  <table><tr>
+			    <td class="instructions">Install the root CA signed certificate</td>
+			    <td width="24" class="arrow">&rarr;</td>
+			    <td width="57" class="imagelink">
+			      <a href="certs/server.cer">
+			      	<img src="img/certificate.png" style="height:57px; width:auto;"/>
+			      </a>
+			    </td>
+			  </tr></table>
+			</div>	
+		</article>
+	</section>
+</body>
+
+</html>
